@@ -1,0 +1,87 @@
+/* PAGE DESIGN */
+
+body {
+  background-image: url('bg-desktop.svg');
+  background-color: hsl(257, 40%, 49%);
+  color: #fff;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding-top: 3%;
+  margin-left: 3%;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  padding-top: 3%;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.site-icon {
+  width: 3.5%;
+}
+.huddle-img {
+  float: left;
+  margin-right: 25px;
+  margin-left: 25px;
+  width: 50%;
+}
+.content {
+  font-family: "Open Sans", sans-serif;
+}
+.attribution {
+  text-align: center;
+  margin-top: 225px;
+}
+.link {
+  color: #212121;
+}
+
+/* SOCIALS ICONS */
+
+.socials {
+  text-align: right;
+  padding-right: 45px;
+}
+
+.socials-icon {
+  width: 3.5%;
+}
+
+/* BUTTON DESIGN*/
+
+.btn-custom {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  padding-left: 1.5%;
+  width: 10%;
+}
+.btn-custom:hover {
+  background-color: #F3F0D7;
+}
+
+/* SMALLER SCREEN DESIGN */
+
+@media (max-width: 900px) {
+  .huddle-img {
+    text-align: center;
+    width: 90%;
+  }
+  h2 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .register-button {
+    margin-right: 25%;
+    margin-left: 25%;
+    width: 50%;
+  }
+  .socials-icon {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20%;
+    width: 5%;
+  }
+}
